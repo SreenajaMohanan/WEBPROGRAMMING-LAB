@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css Style</title>
+        <link rel="stylesheet" href="program4.css">
+
+        <style>
+            h2 {
+                color: #1565c0;
+                margin-bottom: 10px;
+            }
+
+            .internal-text {
+                color: #000000;
+                font-size: 18px;
+                line-height: 1.6;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color:white;text-align:center;background-color:#1565c0;padding:20px;">CSS - Cascading Style Sheet</h1>
+
+        <div class="container">
+            <div class="card">
+                <h2>Inline CSS</h2>
+                <p style="color:Black;font-size:18px;line-height:1.6;">The paragraph uses Inline CSS attribute.
+                    Inline CSS involves adding style properties directly into individual HTML elements using the style attribute.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>Internal CSS</h2>
+                <p class="internal-text">
+                    This paragraph uses Internal CSS. It is a method used to style a single HTML page by placing CSS code directly 
+                    inside a style tag within the head section of the document.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>External CSS</h2>
+                <p class="external-text">
+                    The External CSS is a method of styling a website where all CSS rules are written in a completely
+                    seperate file & it is connected to one or more HTML documents.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
